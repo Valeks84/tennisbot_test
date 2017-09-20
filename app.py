@@ -1,7 +1,10 @@
+import telebot
+from telebot import types
+from datetime import datetime
 
-def main():
 
-    print("Helloe")
+TOKEN = '399554838:AAHi0K7ah2skWcRJb7qaqe3NjqYMVzmnZtw'
 
-if __name__ == '__main__':
-    main()
+date = timedate.now()
+bot = telebot.TeleBot(TOKEN)
+bot.send_message(-1001148320320, text="Обновление от " + date + '\n', parse_mode = 'HTML')
